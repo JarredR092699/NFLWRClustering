@@ -31,4 +31,5 @@ The **NFLWRClustering** model leverages nfl play-by-play data from the `nflfastR
 - Create a more interactive visualization that allows users to see the distinctions between clusters instead of just a scatterplot.
 
 **Contributing**
+
 If you're interested in contributing, please submit a pull request or open an issue with ideas for improving the model. 
