@@ -12,3 +12,8 @@ The **NFLWRClustering** model leverages nfl play-by-play data from the `nflfastR
 - **wr_clustering.R**: Main file containing the K-means clustering model.
 - **download_logos.R**: Secondary file that downloads all 32 NFL team logos for the Tableau Dashboard shown above.
 - **pc2_csv**: Data that feeds the Tableau Dashboard.
+
+**Future Improvements**
+
+- Revisit analysis once the 2024 NFL season is completed to see how receiver clusters changed.
+- Create a more interactive visualization that allows users to see the distinctions between clusters instead of just a scatterplot.
