@@ -1,5 +1,5 @@
 # NFLWRClustering
-Welcome to the **NFLWRClustering** repository! explores how NFL wide receivers in 2024 can be grouped based on their phyiscal attributes and performance metrics. Using K-Means clustering, the algorithm identifies patterns and similarities among WRs to help analyze their roles, skill sets, and contributions to their teams. The analysis focuses on players with at least 350 snaps through the first nine games of the 2024 season. 
+Welcome to the **NFLWRClustering** repository! explores how NFL wide receivers in 2024 can be grouped based on their phyiscal attributes and performance metrics. Using K-Means clustering, the algorithm identifies patterns and similarities among WRs to help analyze their roles, skill sets, and contributions to their teams. 
 
 **Overview**
 
@@ -9,7 +9,8 @@ The **NFLWRClustering** model leverages nfl play-by-play data from the `nflfastR
 [Dashboard Link](https://public.tableau.com/app/profile/jarred.robidoux4256/viz/NFLReceiverClusters/ClusterDash)
 
 **How It Works**
-1. **Feature Selection**: The following variables are used to define player characteristics:
+1. **Data Selection**: The analysis focuses on players with at least 350 snaps through the first nine games of the 2024 season. 
+2. **Feature Selection**: The following variables are used to define player characteristics:
    - Height
    - Weight
    - aDOT (Average Depth of Target)
@@ -17,7 +18,7 @@ The **NFLWRClustering** model leverages nfl play-by-play data from the `nflfastR
    - Yards per Reception
    - Drop Percentage (Drop %)
    - Target Share
-2. **K-Means Clustering**: The K-Means algorithm groups receievers into 10 clusters based on these attributes, highlighting patterns and similarities among players. 
+3. **K-Means Clustering**: The K-Means algorithm groups receievers into 10 clusters based on these attributes, highlighting patterns and similarities among players. 
 
 **Repository Structure**
 - **wr_clustering.R**: Main file containing the K-means clustering model.
